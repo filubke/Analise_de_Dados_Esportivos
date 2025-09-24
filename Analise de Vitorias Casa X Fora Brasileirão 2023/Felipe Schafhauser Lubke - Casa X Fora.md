@@ -2,7 +2,7 @@
 
 
                                                     Felipe Schafhauser Lubke
-                                                    GRR 20233918
+                                                   
                                                     03-Dez-2023 · Curitiba/PR/Brasil
 
 
@@ -259,5 +259,6 @@ Fora de casa é um desafio para todos os times, mas fica claro que para disputar
 Referência bibliográfica
 
 FBREF. **Série A estatísticas**. Disponível em: <https://fbref.com/pt/comps/24/Serie-A-Estatisticas>. Acesso em: 03 de Dez. de 2023 as 22:30.
+
 
 
