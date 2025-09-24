@@ -45,7 +45,7 @@ Com uma comparação descritiva entre vitórias, temos que a variação de vitó
 Enquanto fora de casa se tem 5 vitórias em média no campeonato, em casa temos 8 vitórias, 3 vitórias a menos, e ao relacionar com a colocação do time percebemos que, os 11 primeiros times mais bem posicionados estão acima da média de vitórias em casa, mas em relação a vitórias fora temos um comportamento diferente, times em diferentes posições estão acima da média.
 
 **Posição X Vitórias**\
-<img src="D:\Estatistica\Python para Dados\Trabalho de Análise de Dados\Imagens\Posição X Vitórias.png" title="Posição X Vitórias"/>\
+<img src="Analise de Vitorias Casa X Fora Brasileirão 2023/Imagens\Posição X Vitórias.png" title="Posição X Vitórias"/>\
 A vitórias em caem após a 11° posição, enquanto as fora de casa variam mais.
 
 Aplicamos uma regressão de ordem 2 para entender melhor o comportamento dos dados, e percebemos de forma visual que as vitórias em casa realmente têm uma declividade bem mais acentuada que em relação a vitórias fora.
@@ -259,6 +259,7 @@ Fora de casa é um desafio para todos os times, mas fica claro que para disputar
 Referência bibliográfica
 
 FBREF. **Série A estatísticas**. Disponível em: <https://fbref.com/pt/comps/24/Serie-A-Estatisticas>. Acesso em: 03 de Dez. de 2023 as 22:30.
+
 
 
 
