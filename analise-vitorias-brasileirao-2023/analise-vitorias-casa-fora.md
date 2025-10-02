@@ -2,8 +2,8 @@
 
 
                                                     Felipe Schafhauser Lubke
-                                                    GRR 20233918
                                                     03-Dez-2023 · Curitiba/PR/Brasil
+                                                    
 
 
 
@@ -45,7 +45,7 @@ Com uma comparação descritiva entre vitórias, temos que a variação de vitó
 Enquanto fora de casa se tem 5 vitórias em média no campeonato, em casa temos 8 vitórias, 3 vitórias a menos, e ao relacionar com a colocação do time percebemos que, os 11 primeiros times mais bem posicionados estão acima da média de vitórias em casa, mas em relação a vitórias fora temos um comportamento diferente, times em diferentes posições estão acima da média.
 
 **Posição X Vitórias**\
-<img src="D:\Estatistica\Python para Dados\Trabalho de Análise de Dados\Imagens\Posição X Vitórias.png" title="Posição X Vitórias"/>\
+<img src="/analise-vitorias-brasileirao-2023/Imagens/posicao-vs-vitorias.png" />\
 A vitórias em caem após a 11° posição, enquanto as fora de casa variam mais.
 
 Aplicamos uma regressão de ordem 2 para entender melhor o comportamento dos dados, e percebemos de forma visual que as vitórias em casa realmente têm uma declividade bem mais acentuada que em relação a vitórias fora.
@@ -53,7 +53,7 @@ Com as vitórias de casa tendo um desvio de 4 temos uma variabilidade bem maior 
 Outro ponto analisado para colaborar com a importância de vencer em casa é a correlação de -0,84 com a posição, a correlação das vitórias fora com a posição é de -0,57.
 
 **Posição X Vitórias com Regressão**\
-<img src="D:\Estatistica\Python para Dados\Trabalho de Análise de Dados\Imagens\Posição X Vitórias (regressão).png" title="Posição X Vitórias"/>\
+<img src="/analise-vitorias-brasileirao-2023/Imagens/posicao-vs-vitorias(regressão).png" />\
 Com maior variabilidade a regressão de vitórias em casa tem uma declividade bem mais acentuada.
 
 
@@ -62,13 +62,13 @@ De início o que já chama atenção é que a variação, quando olhamos apenas 
 Outro padrão também já identificado é que os 11 primeiros times mais bem posicionados estão acima da média de pontos em casa, e em relação a pontos fora temos o mesmo comportamento de diferentes posições estarem acima da média.
 
 **Posição X Pontos**\
-<img src="D:\Estatistica\Python para Dados\Trabalho de Análise de Dados\Imagens\Posição X Pontos.png" title="Posição X Pontos"/>\
+<img src="/analise-vitorias-brasileirao-2023/Imagens/posicao-vs-pontos.png" />\
 Da mesma forma que o gráfico anterior, temos o mesmo comportamento que as vitórias, demonstrando que empates não são um bom resultado.
 
 Trazendo o time de forma individual, mas ainda categorizado por sua classificação, vemos o quão predominante é a pontuação em casa para os primeiros colocados, de forma que alguns times como o Fluminense e o São Paulo são 2 dos 3 priores times fora de casa e são o melhor e 4° melhor, respectivamente, pontuando em casa, por conta disso conseguiram ainda ficar na metade de cima da tabela.
 
 **Pontos por Time**\
-<img src="D:\Estatistica\Python para Dados\Trabalho de Análise de Dados\Imagens\Pontos por time.png" title="Pontos por Time"/>\
+<img src="/analise-vitorias-brasileirao-2023/Imagens/Pontos-times.png" />\
 Da metade para baixo do gráfico não temos times com mais de 30 pontos conquistados em casa, mas da metade para cima temos alguns times com menos de 20 pontos conquistados fora de casa.
 
 #### Teste A/B
@@ -77,7 +77,7 @@ Com isso temos o valor de p em 0, indicando que foi observado diferenças estat�
 O valor positivo de t, indica que a versão A (pontos em casa) é estatisticamente superior a versão B (pontos fora de casa), como o valor de t ficou em 3,9, temos que é provável que seja estatisticamente significativo.
 
 **Teste A/B**\
-<img src="D:\Estatistica\Python para Dados\Trabalho de Análise de Dados\Imagens\Teste AB.png" title="Teste A/B"/>\
+<img src="/analise-vitorias-brasileirao-2023/Imagens/Teste AB.png" />\
 
 
 ##### Conclusões
@@ -259,5 +259,6 @@ Fora de casa é um desafio para todos os times, mas fica claro que para disputar
 Referência bibliográfica
 
 FBREF. **Série A estatísticas**. Disponível em: <https://fbref.com/pt/comps/24/Serie-A-Estatisticas>. Acesso em: 03 de Dez. de 2023 as 22:30.
+
 
 
